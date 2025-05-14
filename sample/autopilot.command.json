@@ -1,0 +1,12 @@
+{
+  "topic": "autopilot.command",
+  "originator": "external_source",
+  "timestamp": "2025-05-14T21:04:00Z",
+  "mime-type": "application/json",
+  "payload": {
+    "date": "2025-05-14T21:04:00Z",
+    "command": "START_CHALLENGE",
+    "operator": "22841596",
+    "projectId": 30096982
+  }
+}

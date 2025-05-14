@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# NestJS
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Docker
+docker-compose.yml.bak
+docker-compose.override.yml
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Test and coverage
+coverage/
+*.lcov
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Build artifacts
+*.pid
+*.seed
+*.pid.lock

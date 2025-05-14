@@ -1,0 +1,6 @@
+Implemented Kafka integration with producer, consumers (unique groupIds: autopilot-phase-group, autopilot-challenge-group, autopilot-command-group), retries, and graceful shutdown.
+Added schema validation for autopilot.phase.transition, autopilot.challenge.update, and autopilot.command.
+Fixed infinite loop by skipping auto_pilot originator messages, validated date field, and resolved Kafka health check issue by adjusting timeouts and test command.
+Implemented ConfigService with Joi validation, mock AuthService for token retrieval, and HealthService for /health endpoint.
+Tested all topics with Offset Explorer (localhost:9093) and verified health endpoint (http://localhost:3000/health).
+See README.md for setup, testing, and troubleshooting instructions.

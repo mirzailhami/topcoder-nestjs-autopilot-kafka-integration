@@ -1,0 +1,15 @@
+{
+  "topic": "autopilot.phase.transition",
+  "originator": "auto_pilot",
+  "timestamp": "2025-05-14T18:28:00Z",
+  "mime-type": "application/json",
+  "payload": {
+    "date": "2025-05-14T18:28:00Z",
+    "projectId": 30096982,
+    "phaseId": 1027596,
+    "phaseTypeName": "Registration",
+    "state": "END",
+    "operator": "22841596",
+    "projectStatus": "Active"
+  }
+}

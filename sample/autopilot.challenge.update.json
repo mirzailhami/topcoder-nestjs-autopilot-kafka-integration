@@ -1,0 +1,13 @@
+{
+  "topic": "autopilot.challenge.update",
+  "originator": "external_source",
+  "timestamp": "2025-05-14T21:04:00Z",
+  "mime-type": "application/json",
+  "payload": {
+    "date": "2025-05-14T21:04:00Z",
+    "projectId": 30096982,
+    "challengeId": 123456,
+    "status": "Active",
+    "operator": "22841596"
+  }
+}
