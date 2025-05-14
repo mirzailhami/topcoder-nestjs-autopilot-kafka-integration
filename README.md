@@ -77,7 +77,7 @@ Access `http://localhost:3000/health` to check application status. Expected resp
      - Kafka and Zookeeper logs: `docker logs <kafka-container-name>` and `docker logs <zookeeper-container-name>`.
 
 3. **Create Test Messages**:
-   - **Phase Transition** (`message.json`):
+   - **Phase Transition** (`autopilot.phase.transition.json`):
      ```json
      {
        "topic": "autopilot.phase.transition",
@@ -95,7 +95,7 @@ Access `http://localhost:3000/health` to check application status. Expected resp
        }
      }
      ```
-   - **Challenge Update** (`challenge-update.json`):
+   - **Challenge Update** (`autopilot.challenge.update.json`):
      ```json
      {
        "topic": "autopilot.challenge.update",
@@ -111,7 +111,7 @@ Access `http://localhost:3000/health` to check application status. Expected resp
        }
      }
      ```
-   - **Command** (`command.json`):
+   - **Command** (`autopilot.command.json`):
      ```json
      {
        "topic": "autopilot.command",

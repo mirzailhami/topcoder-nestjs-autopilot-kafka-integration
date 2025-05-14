@@ -4,3 +4,5 @@ Fixed infinite loop by skipping auto_pilot originator messages, validated date f
 Implemented ConfigService with Joi validation, mock AuthService for token retrieval, and HealthService for /health endpoint.
 Tested all topics with Offset Explorer (localhost:9093) and verified health endpoint (http://localhost:3000/health).
 See README.md for setup, testing, and troubleshooting instructions.
+
+repo: https://github.com/mirzailhami/topcoder-nestjs-autopilot-kafka-integration
